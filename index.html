@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DigitalVault.lb | خدماتك الرقمية والذكاء الاصطناعي</title>
+
+<!-- Google Fonts: Cairo -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Tailwind Config -->
+<script>
+tailwind.config = {
+theme: {
+extend: {
+fontFamily: {
+cairo: ['Cairo', 'sans-serif'],
+},
+colors: {
+cyber: {
+purple: '#8b5cf6',
+dark: '#0f172a',
+neon: '#c084fc'
+}
+}
+}
+}
+}
+</script>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased overflow-x-hidden">
+
+<!-- 1. Animated Top Announcement Ribbon -->
+<div class="marquee-container bg-gradient-to-r from-purple-800 to-pink-600 text-white py-2 px-4 text-sm md:text-base font-bold z-50 relative shadow-lg">
+<div class="marquee-content flex gap-8 items-center">
+<span>🎁 خصم 10% حصري لكل من ينضم إلى مجموعة الواتساب الخاصة بنا! <a href="https://chat.whatsapp.com/CewkpWs9KCt3w5K4lwABto?s=cl&p=i&ilr=4&iam=2" target="_blank" class="text-yellow-300 underline mr-2">انضم الآن</a></span>
+<span>🔥 عروض خاصة على اشتراكات Canva و Gemini!</span>
+<span>💳 الدفع حصرياً عبر تطبيق Whish Money (وش) بكل سهولة وأمان!</span>
+</div>
+</div>
+
+<!-- 2. Navbar -->
+<nav class="sticky top-0 z-40 bg-black/70 backdrop-blur-md border-b border-white/10">
+<div class="container mx-auto px-4 py-3 flex justify-between items-center">
+<!-- Logo -->
+<a href="#" class="flex items-center gap-3">
+<img src="images/logo.png" alt="DigitalVault.lb Logo" class="h-10 md:h-12 w-auto object-contain rounded">
+</a>
+
+<!-- Desktop Links -->
+<div class="hidden md:flex gap-6 items-center font-semibold text-gray-300 text-sm lg:text-base">
+<a href="#services" class="hover:text-purple-400 transition">الخدمات والأسعار</a>
+<a href="#ai-video" class="hover:text-purple-400 transition">فيديو AI</a>
+<a href="#reviews" class="hover:text-purple-400 transition">التقييمات</a>
+<a href="#faq" class="hover:text-purple-400 transition">الأسئلة الشائعة</a>
+</div>
+
+<!-- WhatsApp Fast Btn -->
+<a href="https://wa.me/96178744519" target="_blank" class="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-bold transition shadow-[0_0_10px_rgba(34,197,94,0.5)]">
+<i class="fab fa-whatsapp text-lg"></i> <span class="hidden md:inline">تواصل معنا</span>
+</a>
+</div>
+</nav>
+
+<!-- 3. Hero Section with Stickers -->
+<section class="relative container mx-auto px-4 py-16 md:py-24 text-center flex flex-col items-center justify-center min-h-[70vh]">
+<!-- Floating Stickers (Desktop & Mobile) -->
+<div class="absolute top-10 right-4 md:right-20 text-4xl floating-sticker" style="animation-delay: 0s;">🚀</div>
+<div class="absolute bottom-20 left-4 md:left-20 text-5xl floating-sticker" style="animation-delay: 1s;">💎</div>
+<div class="absolute top-1/3 left-2 md:left-10 text-3xl floating-sticker" style="animation-delay: 2s;">🔥</div>
+<div class="absolute bottom-1/3 right-2 md:right-10 text-4xl floating-sticker" style="animation-delay: 1.5s;">🎮</div>
+
+<div class="relative z-10 max-w-3xl">
+<!-- Whish Money Exclusive Badge -->
+<div class="mb-6 inline-flex items-center gap-2 glass-card bg-blue-900/40 border border-blue-500/50 px-4 py-2 rounded-full text-blue-300 font-bold text-xs md:text-sm floating-sticker">
+<i class="fas fa-wallet text-blue-400"></i> الدفع حصرياً عبر تطبيق Whish Money (وش) 💳
+</div>
+
+<h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
+خدماتك الرقمية والذكاء الاصطناعي <br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 neon-text leading-normal">الأضمن والأوفر في لبنان ✨</span>
+</h1>
+<p class="text-base md:text-xl text-gray-300 mb-8 leading-relaxed px-2">
+احصل على اشتراكاتك الرقمية المفضلة (Netflix, Spotify, ChatGPT وغيرها) بحسابات آمنة ومضمونة.
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto px-4">
+<a href="#services" class="w-full sm:w-auto neon-btn px-8 py-4 rounded-full text-white font-bold text-base md:text-lg flex items-center justify-center gap-2">
+<i class="fas fa-shopping-cart"></i> تصفح الباقات
+</a>
+<a href="https://wa.me/96178744519" target="_blank" class="w-full sm:w-auto glass-card px-8 py-4 rounded-full text-white font-bold text-base md:text-lg hover:bg-white/10 transition flex items-center justify-center gap-2 border-green-500/30">
+<i class="fab fa-whatsapp text-green-400 text-xl"></i> طلب سريع
+</a>
+</div>
+</div>
+</section>
+
+<!-- 4. AI Video Showcase Section -->
+<section id="ai-video" class="py-16 bg-black/40 relative overflow-hidden">
+<div class="absolute -right-10 top-10 text-6xl opacity-20 transform rotate-45">🎬</div>
+<div class="absolute -left-10 bottom-10 text-6xl opacity-20 transform -rotate-12">🤖</div>
+
+<div class="container mx-auto px-4 relative z-10">
+<div class="text-center mb-10">
+<h2 class="text-3xl md:text-5xl font-bold mb-4 neon-text leading-tight">
+صناعة فيديوهات بالذكاء الاصطناعي 🤖🎬✨
+</h2>
+<p class="text-gray-400 text-sm md:text-lg px-2">اصنع محتوى احترافي لصفحاتك على تيك توك وإنستغرام يجذب العملاء ويزيد مبيعاتك 🔥</p>
+</div>
+
+<div class="max-w-5xl mx-auto glass-card rounded-3xl p-4 md:p-8 flex flex-col md:flex-row gap-8 items-center border border-purple-500/30">
+<div class="w-full md:w-1/2 relative">
+<!-- Local Video File -->
+<div class="absolute -top-3 -right-3 text-3xl floating-sticker z-20">⭐</div>
+<video controls class="w-full rounded-2xl shadow-[0_0_20px_rgba(168,85,247,0.4)] border-2 border-purple-500/50">
+<source src="videos/aivideo.mp4" type="video/mp4">
+متصفحك لا يدعم تشغيل الفيديو.
+</video>
+</div>
+<div class="w-full md:w-1/2 text-center md:text-right">
+<h3 class="text-2xl md:text-3xl font-bold mb-4 text-purple-300">إعلانات Reels & TikTok 📱</h3>
+<ul class="text-gray-300 space-y-3 mb-8 text-sm md:text-base text-right list-none">
+<li><i class="fas fa-check-circle text-green-400 ml-2"></i> سكربت تسويقي احترافي بالـ AI.</li>
+<li><i class="fas fa-check-circle text-green-400 ml-2"></i> تعليق صوتي طبيعي وجذاب.</li>
+<li><i class="fas fa-check-circle text-green-400 ml-2"></i> مونتاج عالي الجودة للتريند.</li>
+<li><i class="fas fa-bolt text-yellow-400 ml-2"></i> تسليم سريع خلال 24 ساعة.</li>
+</ul>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب إعلان فيديو بالذكاء الاصطناعي لمتجري" target="_blank" class="block w-full neon-btn px-6 py-4 rounded-xl text-white font-bold text-center text-lg">
+اطلب إعلانك الآن ابتداءً من $2 🚀
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 5. Products & Pricing Grid -->
+<section id="services" class="py-16 md:py-24">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<div class="inline-block glass-card px-6 py-2 rounded-full mb-4 text-blue-300 font-bold border-blue-500/30 text-sm">
+تذكير: الدفع حصرياً عبر Whish Money 💸
+</div>
+<h2 class="text-3xl md:text-5xl font-bold mb-4">الاشتراكات والخدمات 🛍️</h2>
+<p class="text-gray-400 text-sm md:text-base">حسابات خاصة ومضمونة، اختر الباقة واطلبها فوراً عبر الواتساب.</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+<!-- Card 1: Gemini Pro -->
+<div class="glass-card rounded-3xl p-6 flex flex-col relative overflow-hidden group">
+<div class="absolute top-0 right-0 bg-gradient-to-l from-purple-600 to-pink-500 text-xs font-bold px-4 py-2 rounded-bl-xl shadow-lg">🔥 الأكثر طلباً</div>
+<img src="images/gemini.png" alt="Gemini Pro" class="w-20 h-20 md:w-24 md:h-24 object-contain mx-auto mb-4 group-hover:scale-110 transition duration-300">
+<h3 class="text-2xl font-bold text-center mb-2">Gemini Pro</h3>
+<p class="text-center text-gray-400 text-xs md:text-sm mb-4">حساب خاص 100% | 5TB تخزين | ضمان</p>
+<div class="text-center text-3xl md:text-4xl font-extrabold text-purple-400 mb-6">$16 <span class="text-sm md:text-lg text-gray-500 font-normal">/ 18 شهر</span></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك Gemini Pro لمدة 18 شهر بسعر 16$" target="_blank" class="mt-auto w-full bg-white/5 hover:bg-green-500 hover:text-white text-green-400 border border-green-500/50 py-3 rounded-xl font-bold text-center transition flex items-center justify-center gap-2">
+<i class="fab fa-whatsapp text-xl"></i> اطلب عبر واتساب
+</a>
+</div>
+
+<!-- Card 2: Canva Pro -->
+<div class="glass-card rounded-3xl p-6 flex flex-col group">
+<img src="images/canva.png" alt="Canva Pro" class="w-20 h-20 md:w-24 md:h-24 object-contain mx-auto mb-4 group-hover:scale-110 transition duration-300">
+<h3 class="text-2xl font-bold text-center mb-2">Canva Pro</h3>
+<p class="text-center text-gray-400 text-xs md:text-sm mb-4">مدى الحياة على حسابك + كورس هدية 🎁</p>
+<div class="text-center text-3xl md:text-4xl font-extrabold text-purple-400 mb-6">$10 <span class="text-sm md:text-lg text-gray-500 font-normal">/ مدى الحياة</span></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك Canva Pro مدى الحياة بسعر 10$" target="_blank" class="mt-auto w-full bg-white/5 hover:bg-green-500 hover:text-white text-green-400 border border-green-500/50 py-3 rounded-xl font-bold text-center transition flex items-center justify-center gap-2">
+<i class="fab fa-whatsapp text-xl"></i> اطلب عبر واتساب
+</a>
+</div>
+
+<!-- Card 3: CapCut Pro -->
+<div class="glass-card rounded-3xl p-6 flex flex-col group">
+<img src="images/capcut.png" alt="CapCut Pro" class="w-20 h-20 md:w-24 md:h-24 object-contain mx-auto mb-4 group-hover:scale-110 transition duration-300">
+<h3 class="text-2xl font-bold text-center mb-2">CapCut Pro</h3>
+<p class="text-center text-gray-400 text-xs md:text-sm mb-4">للمونتاج الاحترافي 🎬</p>
+<div class="flex justify-between text-sm md:text-base mb-2 border-b border-gray-700/50 pb-2"><span>1 شهر</span> <strong>$8</strong></div>
+<div class="flex justify-between text-sm md:text-base mb-2 border-b border-gray-700/50 pb-2"><span>6 أشهر</span> <strong>$29</strong></div>
+<div class="flex justify-between text-sm md:text-base mb-6"><span>1 سنة</span> <strong>$55</strong></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك CapCut Pro" target="_blank" class="mt-auto w-full bg-white/5 hover:bg-green-500 hover:text-white text-green-400 border border-green-500/50 py-3 rounded-xl font-bold text-center transition flex items-center justify-center gap-2">
+<i class="fab fa-whatsapp text-xl"></i> اطلب عبر واتساب
+</a>
+</div>
+
+<!-- Card 4: ChatGPT Plus -->
+<div class="glass-card rounded-3xl p-6 flex flex-col group">
+<img src="images/chatgpt.png" alt="ChatGPT Plus" class="w-20 h-20 md:w-24 md:h-24 object-contain mx-auto mb-4 group-hover:scale-110 transition duration-300">
+<h3 class="text-2xl font-bold text-center mb-2">ChatGPT Plus</h3>
+<p class="text-center text-gray-400 text-xs md:text-sm mb-4">حساب مشترك موثوق للوصول لـ GPT-4 🧠</p>
+<div class="grid grid-cols-2 gap-2 text-xs md:text-sm mb-6 text-center">
+<div class="bg-black/40 p-2 rounded-lg border border-white/5">1 شهر: <strong>$7</strong></div>
+<div class="bg-black/40 p-2 rounded-lg border border-white/5">3 أشهر: <strong>$18</strong></div>
+<div class="bg-black/40 p-2 rounded-lg border border-white/5">6 أشهر: <strong>$35</strong></div>
+<div class="bg-black/40 p-2 rounded-lg border border-white/5">1 سنة: <strong>$65</strong></div>
+</div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك ChatGPT Plus" target="_blank" class="mt-auto w-full bg-white/5 hover:bg-green-500 hover:text-white text-green-400 border border-green-500/50 py-3 rounded-xl font-bold text-center transition flex items-center justify-center gap-2">
+<i class="fab fa-whatsapp text-xl"></i> اطلب عبر واتساب
+</a>
+</div>
+
+<!-- Card 5: Streaming (Spotify, Netflix, Shahid) -->
+<div class="glass-card rounded-3xl p-6 flex flex-col lg:col-span-2 relative overflow-hidden">
+<div class="absolute top-4 left-4 text-3xl floating-sticker" style="animation-delay: 0.5s;">🍿</div>
+<div class="absolute bottom-4 right-4 text-3xl floating-sticker" style="animation-delay: 1.5s;">🎵</div>
+
+<h3 class="text-2xl md:text-3xl font-bold text-center mb-6 z-10">باقات الترفيه 🍿🎵</h3>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 z-10">
+<!-- Spotify -->
+<div class="bg-black/50 rounded-2xl p-5 text-center border border-green-500/20 hover:border-green-500/60 transition group">
+<img src="images/spotify.png" alt="Spotify" class="w-14 h-14 mx-auto mb-3 group-hover:rotate-12 transition">
+<h4 class="font-bold text-sm md:text-base">Spotify Premium</h4>
+<div class="text-green-400 font-bold text-xl md:text-2xl my-2">$12 <span class="text-xs font-normal">/ 3 أشهر</span></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك Spotify لمدة 3 أشهر بسعر 12$" target="_blank" class="text-sm bg-green-500/20 text-green-400 px-4 py-2 rounded-lg block mt-3 hover:bg-green-500 hover:text-white transition font-bold">طلب سريع</a>
+</div>
+<!-- Netflix -->
+<div class="bg-black/50 rounded-2xl p-5 text-center border border-red-500/20 hover:border-red-500/60 transition group">
+<img src="images/netflix.png" alt="Netflix" class="w-14 h-14 mx-auto mb-3 group-hover:scale-110 transition">
+<h4 class="font-bold text-sm md:text-base">Netflix</h4>
+<div class="text-red-400 font-bold text-xl md:text-2xl my-2">$4 <span class="text-xs font-normal">/ شهرياً</span></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك Netflix بسعر 4$ شهرياً" target="_blank" class="text-sm bg-red-500/20 text-red-400 px-4 py-2 rounded-lg block mt-3 hover:bg-red-500 hover:text-white transition font-bold">طلب سريع</a>
+</div>
+<!-- Shahid -->
+<div class="bg-black/50 rounded-2xl p-5 text-center border border-blue-500/20 hover:border-blue-500/60 transition group">
+<img src="images/shahid.png" alt="Shahid VIP" class="w-14 h-14 mx-auto mb-3 group-hover:scale-110 transition">
+<h4 class="font-bold text-sm md:text-base">Shahid VIP</h4>
+<div class="text-blue-400 font-bold text-xl md:text-2xl my-2">$4.5 <span class="text-xs font-normal">/ شهرياً</span></div>
+<a href="https://wa.me/96178744519?text=مرحباً، أريد طلب اشتراك Shahid VIP بسعر 4.5$ شهرياً" target="_blank" class="text-sm bg-blue-500/20 text-blue-400 px-4 py-2 rounded-lg block mt-3 hover:bg-blue-500 hover:text-white transition font-bold">طلب سريع</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- 6. Feedback & Rating Section -->
+<section id="reviews" class="py-16 bg-black/40">
+<div class="container mx-auto px-4 max-w-4xl text-center">
+<h2 class="text-3xl md:text-4xl font-bold mb-6 neon-text">آراء العملاء وتقييماتهم ⭐🌟</h2>
+
+<!-- Average Rating Banner -->
+<div class="inline-flex flex-col md:flex-row items-center justify-center gap-2 glass-card rounded-full px-6 md:px-8 py-3 mb-10 border-yellow-500/30">
+<span class="text-yellow-400 text-xl md:text-2xl"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+<span class="text-lg md:text-xl font-bold text-white">4.9 / 5</span>
+<span class="text-gray-400 text-xs md:text-sm">بناءً على أكثر من 350+ طلب ناجح 🎉</span>
+</div>
+
+<!-- Feedback Form -->
+<div class="glass-card rounded-3xl p-6 md:p-8 text-right max-w-2xl mx-auto relative overflow-hidden">
+<div class="absolute -top-4 -left-4 text-4xl opacity-20 transform -rotate-12">💬</div>
+
+<h3 class="text-xl md:text-2xl font-bold mb-6 text-center text-purple-300">شاركنا تجربتك! 💌</h3>
+<form id="feedbackForm">
+<div class="mb-4">
+<label class="block text-gray-300 mb-2 text-sm md:text-base font-semibold">الاسم الكريم:</label>
+<input type="text" id="userName" required class="w-full bg-black/60 border border-gray-600 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-purple-500 transition">
+</div>
+
+<div class="mb-5 text-center bg-black/30 p-4 rounded-xl border border-white/5">
+<label class="block text-gray-300 mb-3 text-sm md:text-base font-semibold">تقييمك لنا:</label>
+<div class="star-rating text-3xl md:text-4xl text-gray-600 flex justify-center gap-3 flex-row-reverse">
+<i class="fas fa-star hover:text-yellow-400" data-val="5"></i>
+<i class="fas fa-star hover:text-yellow-400" data-val="4"></i>
+<i class="fas fa-star hover:text-yellow-400" data-val="3"></i>
+<i class="fas fa-star hover:text-yellow-400" data-val="2"></i>
+<i class="fas fa-star hover:text-yellow-400" data-val="1"></i>
+</div>
+<input type="hidden" id="ratingValue" value="0" required>
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-300 mb-2 text-sm md:text-base font-semibold">التعليق:</label>
+<textarea id="userComment" required rows="3" class="w-full bg-black/60 border border-gray-600 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-purple-500 transition" placeholder="اكتب رأيك هنا..."></textarea>
+</div>
+
+<button type="submit" class="w-full neon-btn text-white font-bold py-3 md:py-4 rounded-xl text-lg flex justify-center items-center gap-2">
+إرسال التقييم <i class="fas fa-paper-plane"></i>
+</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- 7. FAQ Section -->
+<section id="faq" class="py-16 md:py-24">
+<div class="container mx-auto px-4 max-w-3xl">
+<h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">الأسئلة الشائعة ❓💭</h2>
+
+<div class="space-y-4 text-right">
+<details class="glass-card rounded-2xl group">
+<summary class="font-bold text-base md:text-lg p-5 cursor-pointer list-none flex justify-between items-center bg-white/5 hover:bg-white/10 transition rounded-2xl">
+هل الحسابات مضمونة وآمنة؟
+<i class="fas fa-chevron-down text-purple-400 transition group-open:rotate-180"></i>
+</summary>
+<div class="p-5 pt-2 text-gray-300 text-sm md:text-base">
+نعم بالتأكيد! نحن في DigitalVault.lb نضمن لك عمل الحساب طوال فترة الاشتراك، ونقدم دعماً فنياً طوال أيام الأسبوع لحل أي مشكلة قد تواجهك 🛡️.
+</div>
+</details>
+
+<details class="glass-card rounded-2xl group">
+<summary class="font-bold text-base md:text-lg p-5 cursor-pointer list-none flex justify-between items-center bg-white/5 hover:bg-white/10 transition rounded-2xl">
+ما هو الفرق بين الحساب الخاص والمشترك؟
+<i class="fas fa-chevron-down text-purple-400 transition group-open:rotate-180"></i>
+</summary>
+<div class="p-5 pt-2 text-gray-300 text-sm md:text-base">
+<strong class="text-purple-300">الحساب الخاص 👤:</strong> يكون ملكك بالكامل ولا يشاركك فيه أحد (مثل باقة Gemini Pro و Canva).<br><br>
+<strong class="text-pink-300">الحساب المشترك 👥:</strong> حساب يتم مشاركته مع عدد محدود جداً من المستخدمين لتقليل التكلفة عليك (مثل ChatGPT Plus)، مع ضمان الخصوصية لعملك.
+</div>
+</details>
+
+<!-- Updated FAQ for Payment -->
+<details class="glass-card rounded-2xl group border border-blue-500/30" open>
+<summary class="font-bold text-base md:text-lg p-5 cursor-pointer list-none flex justify-between items-center bg-blue-900/20 hover:bg-blue-900/40 transition rounded-2xl text-blue-200">
+ما هي طريقة الدفع المعتمدة؟ 💳
+<i class="fas fa-chevron-down text-blue-400 transition group-open:rotate-180"></i>
+</summary>
+<div class="p-5 pt-2 text-gray-200 text-sm md:text-base border-t border-blue-500/20 mt-2">
+طريقة الدفع لدينا <strong>حصرية فقط عبر تطبيق Whish Money (وش)</strong> 💸.<br>
+هذا يضمن لك سرعة التحويل والأمان التام. بمجرد تحويل المبلغ وإرسال الإيصال عبر الواتساب، يتم تسليمك الحساب أو الخدمة خلال دقائق معدودة ⚡.
+</div>
+</details>
+</div>
+</div>
+</section>
+
+<!-- 8. Footer -->
+<footer class="bg-black/90 border-t border-white/10 py-10 text-center">
+<div class="container mx-auto px-4">
+<img src="images/logo.png" alt="DigitalVault.lb" class="h-12 mx-auto mb-6 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition duration-500">
+
+<div class="flex justify-center items-center gap-4 mb-6">
+<span class="bg-blue-900/50 text-blue-300 px-4 py-1 rounded-full text-xs md:text-sm border border-blue-500/30">
+<i class="fas fa-check-circle"></i> نقبل الدفع عبر Whish حصراً
+</span>
+</div>
+
+<p class="text-gray-400 mb-2 text-sm md:text-base">أفضل متجر للخدمات الرقمية في لبنان 🇱🇧</p>
+<p class="text-xs md:text-sm text-gray-500">جميع الحقوق محفوظة لـ DigitalVault.lb &copy; 2026</p>
+</div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/96178744519" target="_blank" class="float-wa bg-green-500 text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center text-3xl md:text-4xl shadow-[0_0_20px_rgba(34,197,94,0.6)] hover:bg-green-600 hover:scale-110 transition duration-300">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
